@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/containers.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wxh3ngl.css">
+
+</head>
+<header id="navigation">
+    <div class="nav-bar-container ">
+       <a class="home-button" aria="back to home" href="home.html">
+       <img alt="Logo" class="landing-logo" src="assets/FILLER.png" />
+       </a>
+       <div class="ul-wrapper nav-horizontal">
+          <ul class="nav-ul-horizontal">
+             <li class="menu-li "> 
+                <a class=" menu-li" href="#about">About</a>
+                <a class=" menu-li" href="#contact">Contact</a>
+                <a class=" menu-li" href="#about">Testimonials</a>
+                <a class=" menu-li" href="#contact">Menu</a>
+            </li>
+          </ul>
+       </div>
+
+       <a class="socials" href="https://www.linkedin.com/in/halhoward1/"><img alt="LinkedIn Logo and link to external site" class="socials" src="assets/FILLER.png"></a>
+
+       <button onclick="openNav()" class="hamburger-button">
+          <div class="hamburger-menu">
+             <div class="cs-line" aria-hidden="true"></div>
+             <div class="cs-line" aria-hidden="true"></div>
+             <div class="cs-line" aria-hidden="true"></div>
+          </div>
+       </button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+       <a class=" menu-li" onclick="closeNav()" href="#about">About</a>
+       <a class=" menu-li"  onclick="closeNav()" href="#contact">Contact</a>
+       <a class="socials"  href="https://www.linkedin.com/in/halhoward1/"><img alt="LinkedIn Logo and link to external site" class="socials" src="images/in-blue.png"></a>
+       <div style="color:black; ">
+                <a style="color:black; text-decoration: underline; font-size:15px;" href="mailto:hal@jhhexec.com">email@email.com</a>
+                <a style="color:black; text-decoration: underline;  font-size:15px;" href="tel:+14254450818">+1 111111111</a> 
+             </div>
+    </div>
+ </header>
+ <div id="black-filter"></div>
+<body>
+
+    
+    <div id="banner-section">
+      <video autoplay muted loop id="myVideo">
+         <source src="assets/test.mp4" type="video/mp4">
+       </video>
+        <div class="">
+            <div class="banner-content">
+
+               <span class="landing-text">
+                  Music Needs Media
+               </span>
+               
+            </div>
+        </div>
+    </div>   
+
+    <div id="header-section">
+        <div class="container">
+           <div id="about" class="section-header">
+              <div class="heading">About</div>
+           </div>
+        </div>
+     </div>
+     <div id="biography-section">
+        <div class="container">
+           <div class="biography-content content">
+              <p>
+                 <span style="font-size:40px; font-weight:bold;">Hal </span>is the Owner and Principal for JHH Executive Consulting, a private consulting practice that specializes
+                 in Strategic Planning, M&A Assistance, and Advisory Services for Private Equity Firms, Venture
+                 Capitalists, and Technology Organizations.
+                 
+              </p>
+              <img alt="image of a building" class="body-image" src="/assets/FILLER.png">
+
+              <p>
+                 Founded in 2014, the firm has actively advised both buyers and sellers in over 20 deals, starting with the
+                 sales of IBIS to Sonata in 2015 and most recently Hg Capital’s successful acquisition of HHA Exchange.
+                 Prior to starting the firm, Hal made over a dozen acquisitions on behalf of Microsoft while leading the
+                 Dynamics ERP business.
+                 
+              </p>
+              <p>
+                 Hal co-founded Komiko Limited in 2015 and sold the company to Zoominfo in 2019. Komiko built a SaaS
+                 service focused was on data capture and artificial intelligence for sales and customer success
+                 professionals.
+                 
+              </p>
+              <p>
+
+                 Hal led the Microsoft Dynamics ERP product development team from 2004 to 2014. His team produced
+the Dynamics AX, Dynamics GP, Dynamics SL, and Dynamics NAV products that form the foundation of
+today’s Dynamics 365 product family. Under his leadership, the team transformed and modernized the
+products and expanded Microsoft Dynamics’ presence globally.
+              </p>
+              <p>
+
+                 Prior to joining the Microsoft’s Business Solutions Unit, Hal worked on the Microsoft Exchange Server
+team (1994-1998) and led the Microsoft Passport team (1998-2003). He holds 8 patents for various
+technologies across those products and services.
+              </p>
+              <p>
+                 Hal currently sits on the board of ArcherPoint and chairs the Nomination and Governance Committee for
+                 the board. He and his wife Donna hold investments in various wine and food related ventures as well as
+                 technology ventures. They are also managing Shard Tabletop, a software startup in the gaming industry.
+                 
+              </p>
+           </div>
+        </div>
+     </div>
+     <div id="header-section">
+        <div id="contact"  class="container">
+           <div id="about" class="section-header">
+              <div class="heading">Contact</div>
+           </div>
+        </div>
+     </div>
+     <div id="contact-section">
+        <div  class="container">
+           <div class="contact-content content">
+             
+              <div id="thank-you-message" class="disappear">
+                 <p style="color:white">
+                    Thank you for your message. We will be in contact shortly!
+                 </p>
+                 <br>
+                 <a href="home.html"><button class="button">
+                    Return to top
+                 </button></a>
+  
+              </div>
+
+              <div id="form-container">
+
+                 <form
+                 action="https://formspree.io/f/mpwabeeb"
+                 method="POST"
+                 id="contact-form"
+               >                                 
+                 <input name="Name" class="form-input" id="name" type="text" placeholder="Name" required>
+                 <input name="Email" class="form-input" id="email" type="text" placeholder="Email" required>
+                 <input name="Company"class="form-input" id="company" type="text" placeholder="Company (optional)">
+                 <textarea class="form-input" placeholder="Message" id="message" name="Message" rows="10" cols="50" required></textarea>
+
+                 <input id="submit-message" class="button" type="submit" onclick="handleSubmit">
+                 <div style="color:white; text-align:center;">
+                    <a style="color:white; text-decoration: underline;" href="mailto:hal@jhhexec.com">hal@jhhexec.com</a>&nbsp; &nbsp;|&nbsp;&nbsp;<a style="color:white; text-decoration: underline;" href="tel:+14254450818">+1 425 445 0818</a> 
+                 </div>
+              </form>
+              
+           </div>
+           </div>
+        </div>
+     </div>
+     <div class="line"></div>
+     <footer>
+        <div> Copyright © 2024 JHH Executive Consulting 
+        </div>
+        <div>
+           <a href="Assets\JHH Executive Consulting Privacy Policy.pdf">Privacy Policy</a>
+           
+        </div>
+    
+
+</body>
+<script src="index.js"></script>
+</html>
