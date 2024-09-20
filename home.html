@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/sidenav.css">
     <link rel="stylesheet" href="css/containers.css">
-    <link rel="stylesheet" href="https://use.typekit.net/wxh3ngl.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kvc3cmy.css">
 
 </head>
 <header id="navigation">
@@ -19,7 +19,7 @@
        <div class="ul-wrapper nav-horizontal">
           <ul class="nav-ul-horizontal">
              <li class="menu-li "> 
-                <a class=" menu-li" href="#about">About</a>
+                <a class=" menu-li" href="about.html">About</a>
                 <a class=" menu-li" href="#contact">Contact</a>
                 <a class=" menu-li" href="#about">Testimonials</a>
                 <a class=" menu-li" href="#contact">Menu</a>
@@ -40,11 +40,11 @@
     <div id="mySidenav" class="sidenav">
        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     
-       <a class=" menu-li" onclick="closeNav()" href="#about">About</a>
+       <a class=" menu-li" onclick="closeNav()" href="about.html">About</a>
        <a class=" menu-li"  onclick="closeNav()" href="#contact">Contact</a>
        <a class="socials"  href="https://www.linkedin.com/in/halhoward1/"><img alt="LinkedIn Logo and link to external site" class="socials" src="images/in-blue.png"></a>
        <div style="color:black; ">
-                <a style="color:black; text-decoration: underline; font-size:15px;" href="mailto:hal@jhhexec.com">email@email.com</a>
+                <a style="color:black; text-decoration: underline; font-size:15px;" href="mailto:email@example.com">email@email.com</a>
                 <a style="color:black; text-decoration: underline;  font-size:15px;" href="tel:+14254450818">+1 111111111</a> 
              </div>
     </div>
@@ -57,70 +57,44 @@
       <video autoplay muted loop id="myVideo">
          <source src="assets/test.mp4" type="video/mp4">
        </video>
-        <div class="">
             <div class="banner-content">
-
-               <span class="landing-text">
-                  Music Needs Media
-               </span>
-               
+               <div class="landing-text-container">
+                  <div class="landing-text typewriter">
+                     Music <em>Needs</em> Media
+                  </div>
+               </div>
             </div>
-        </div>
+    </div>
+    <div class="spacer">
+
     </div>   
+    <div>
+      <div class="container">
+         <h1 style="text-align: center;">.</h1>
+         <h1 style="text-align: center;">.</h1>
+         <h1 style="text-align: center;">.</h1>
+         <h1 style="text-align: center;">.</h1>
+         <h1 style="text-align: center;">.</h1>
 
-    <div id="header-section">
-        <div class="container">
-           <div id="about" class="section-header">
-              <div class="heading">About</div>
-           </div>
-        </div>
+        <div class="biography-content" id="tagline" style="text-align: center;">We are a collective of media artists who are dedicated to capturing live music culture in Seattle.</div>
+        <h1 style="text-align: center;">.</h1>
+        <h1 style="text-align: center;">.</h1>
+        <h1 style="text-align: center;">.</h1>
+        <h1 style="text-align: center;">.</h1>
+        <h1 style="text-align: center;">.</h1>
+      </div>
      </div>
-     <div id="biography-section">
-        <div class="container">
-           <div class="biography-content content">
-              <p>
-                 <span style="font-size:40px; font-weight:bold;">Hal </span>is the Owner and Principal for JHH Executive Consulting, a private consulting practice that specializes
-                 in Strategic Planning, M&A Assistance, and Advisory Services for Private Equity Firms, Venture
-                 Capitalists, and Technology Organizations.
-                 
-              </p>
-              <img alt="image of a building" class="body-image" src="/assets/FILLER.png">
 
-              <p>
-                 Founded in 2014, the firm has actively advised both buyers and sellers in over 20 deals, starting with the
-                 sales of IBIS to Sonata in 2015 and most recently Hg Capital’s successful acquisition of HHA Exchange.
-                 Prior to starting the firm, Hal made over a dozen acquisitions on behalf of Microsoft while leading the
-                 Dynamics ERP business.
-                 
-              </p>
-              <p>
-                 Hal co-founded Komiko Limited in 2015 and sold the company to Zoominfo in 2019. Komiko built a SaaS
-                 service focused was on data capture and artificial intelligence for sales and customer success
-                 professionals.
-                 
-              </p>
-              <p>
 
-                 Hal led the Microsoft Dynamics ERP product development team from 2004 to 2014. His team produced
-the Dynamics AX, Dynamics GP, Dynamics SL, and Dynamics NAV products that form the foundation of
-today’s Dynamics 365 product family. Under his leadership, the team transformed and modernized the
-products and expanded Microsoft Dynamics’ presence globally.
-              </p>
-              <p>
-
-                 Prior to joining the Microsoft’s Business Solutions Unit, Hal worked on the Microsoft Exchange Server
-team (1994-1998) and led the Microsoft Passport team (1998-2003). He holds 8 patents for various
-technologies across those products and services.
-              </p>
-              <p>
-                 Hal currently sits on the board of ArcherPoint and chairs the Nomination and Governance Committee for
-                 the board. He and his wife Donna hold investments in various wine and food related ventures as well as
-                 technology ventures. They are also managing Shard Tabletop, a software startup in the gaming industry.
-                 
-              </p>
-           </div>
-        </div>
+     <div class="container">
+         <div class="biography-content" id="tagline" style="text-align: center;">"to fund the  visual artists that capture and preserve live music"</div>
      </div>
+     <div class="spacer">
+   </div>   
+     <div class="container" id="landing-buttons">
+      <button class="landing-btn" id="donate">donate</button> <button class="landing-btn" id="see-roster">see roster</button>
+     </div>
+     <div class="spacer"></div>
      <div id="header-section">
         <div id="contact"  class="container">
            <div id="about" class="section-header">
@@ -157,7 +131,7 @@ technologies across those products and services.
 
                  <input id="submit-message" class="button" type="submit" onclick="handleSubmit">
                  <div style="color:white; text-align:center;">
-                    <a style="color:white; text-decoration: underline;" href="mailto:hal@jhhexec.com">hal@jhhexec.com</a>&nbsp; &nbsp;|&nbsp;&nbsp;<a style="color:white; text-decoration: underline;" href="tel:+14254450818">+1 425 445 0818</a> 
+                    <a style="color:white; text-decoration: underline;" href="mailto:email@example.com">email@example.com</a>&nbsp; &nbsp;|&nbsp;&nbsp;<a style="color:white; text-decoration: underline;" href="tel:+14254450818">+1 123 456 7890</a> 
                  </div>
               </form>
               
